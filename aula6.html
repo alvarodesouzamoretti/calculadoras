@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Digite "S" para cadastrar um novo aluno</p>
+    <script>
+            let opc = prompt ("Diseja cadastrar um aluno S ou N")        
+
+            if (opc == "S") {
+            let nomeAluno = prompt("Digite o nome do aluno<Br>")               
+            let AnoNasci = parseInt( prompt("Digite a sua data de nacimento<Br>")) 
+            let sexo = prompt("Digite o sexo<Br>") 
+            let idade = 2024 - AnoNasci
+            // retorn as informalções do aluno 
+            document.write("Aluno; "+nomeAluno+"<br>")
+            document.write("sexo; "+sexo+"<Br>")
+            document.write("Idade; "+idade+"<Br>")
+            }   else {
+                    document.write("Obrigado volte sempre ")
+
+            }
+    </script>
+</body>
+</html>
